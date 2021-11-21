@@ -3267,36 +3267,14 @@
             <div class="mbr-col-md-12 mbr-col-sm-12 form-content mbr-col-lg-6">
                 <div class="form-wrap" data-form-type="formoid">
                     <!-- Form -->
-
-                    <form class="mbr-form" method="post" target="_top" action-xhr="https://little-bridges.com/carcarhouse_ampmail.php">
-                        <div class="mbr-form-row">
-                            <!-- Create fields for the honeypot -->
-                            <div class="field hide mbr-col-sm-12 mbr-col">
-                                <input class="field-input display-4" type="text" name="name" data-form-field="Name" placeholder="Name (leave it blank)">
-                            </div>
-                            <!-- honeypot fields end -->
-                            <div class="field mbr-col-sm-12 mbr-col">
-                                <input class="field-input display-4" type="email" name="email" data-form-field="Email" placeholder="Email" required="">
-                            </div>
-                            <div class="area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12">
-                                <textarea class="field-input display-4" name="message" rows="7" data-form-field="Message" placeholder="Write your message here..." required=""></textarea>
-                            </div>
-
-                            <div class="mbr-form-row">
-                                <div submit-success="" class="mbr-col-sm-12 mbr-col-md-12">
-                                    <template data-form-alert="" type="amp-mustache">Success! Thank you, we will contact you shortly.</template>
-                                </div>
-                                <div submit-error="" class="mbr-col-sm-12 mbr-col-md-12">
-                                    <template data-form-alert="" type="amp-mustache">Error! Thanks for trying to send a message but something went wrong! Please try again later.</template>
-                                </div>
-                            </div>
-                            <div class="mbr-section-btn mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12 align-center">
-                                <button type="submit" class="btn btn-primary btn-form display-4"><span class="fa fa-send-o mbr-iconfont mbr-iconfont-btn"><svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-527-215-298 327q-18 21-47 21-14 0-23-4-19-7-30-23.5t-11-36.5v-452l-472-193q-37-14-40-55-3-39 32-59l1664-960q35-21 68 2zm-342 1499l221-1323-1434 827 336 137 863-639-478 797z"></path></svg></span>SEND MESSAGE
-                                </button>
-                            </div>
-
-                        </div>
-                    </form>
+                    <amp-iframe
+                            width="200"
+                            height="200"
+                            sandbox="allow-scripts allow-forms allow-same-origin"
+                            layout="responsive"
+                            src="https://www.little-bridges.com/.contact/carcarhouse_contact.html"
+                    >
+                    </amp-iframe>
 
                 </div>
             </div>
